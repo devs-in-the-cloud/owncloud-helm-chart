@@ -1,10 +1,10 @@
 ---
 apiVersion: v2
 name: owncloud
-version: 0.8.1
+version: 0.8.2
 description: ownCloud Server Helm chart
 # renovate: datasource=docker depName=owncloud/server
-appVersion: 10.14.0
+appVersion: 10.15.0
 home: https://owncloud.com/
 keywords:
   - owncloud
@@ -12,13 +12,13 @@ keywords:
   - collaboration
   - sharing
 maintainers:
-  - name: ownCloud GmbH
-    email: devops@owncloud.com
-    url: https://owncloud.com
+  - name: Devs in the Cloud eU
+    email: contact@devsinthe.cloud
+    url: https://devsinthe.cloud
 type: application
 # Keep 'kubeVersion' in sync with 'kubernetesVersions' in .drone.star
 kubeVersion: "~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0 || ~1.30.0-0"
 sources:
-  - https://github.com/owncloud-docker/helm-charts
+  - https://github.com/devs-in-the-cloud/owncloud-helm-chart
   - https://github.com/owncloud-docker/server
   - https://github.com/owncloud/core

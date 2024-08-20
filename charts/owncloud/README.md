@@ -1,8 +1,8 @@
 # owncloud
 
-![Helm Version](https://img.shields.io/github/v/release/owncloud-docker/helm-charts?label=Version)
+![Helm Version](https://img.shields.io/github/v/release/devs-in-the-cloud/owncloud-helm-chart?label=Version)
 ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat)
-![AppVersion: 10.14.0](https://img.shields.io/badge/AppVersion-10.14.0-informational?style=flat)
+![AppVersion: 10.15.0](https://img.shields.io/badge/AppVersion-10.14.0-informational?style=flat)
 
 ownCloud Server Helm chart
 
@@ -10,7 +10,7 @@ ownCloud Server Helm chart
 
 ## Source Code
 
-* <https://github.com/owncloud-docker/helm-charts>
+* <https://github.com/devs-in-the-cloud/owncloud-helm-chart>
 * <https://github.com/owncloud-docker/server>
 * <https://github.com/owncloud/core>
 

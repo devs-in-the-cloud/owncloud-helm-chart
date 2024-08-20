@@ -21,7 +21,7 @@ You can then run `helm search repo owncloud` to see the charts. The Chart docume
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/owncloud-docker/helm-charts/blob/main/LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/devs-in-the-cloud/owncloud-helm-chart/tree/main/blob/main/LICENSE) file for details.
 
 ## Copyright
 

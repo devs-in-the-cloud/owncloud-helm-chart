@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   owncloud:
   - apiVersion: v2
-    appVersion: 10.14.0
-    created: "2024-08-20T18:58:06.916406+02:00"
+    appVersion: 10.15.0
+    created: "2024-08-20T19:41:56.118721+02:00"
     description: ownCloud Server Helm chart
-    digest: e739650749a0acfade81f541072e8f55971bc7fd4ee3e87c1a46ddbf449d4b40
+    digest: c17f4abcec16532e5746b8d9bf1a63930cd0a1b75aa971187e8299f032cadadf
     home: https://owncloud.com/
     keywords:
     - owncloud
@@ -14,16 +14,66 @@ entries:
     - sharing
     kubeVersion: ~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0 || ~1.30.0-0
     maintainers:
-    - email: contact@devsinhe.cloud
-      name: Devs in the Cloud eU
-      url: https://devsinthe.cloud
+    - email: devops@owncloud.com
+      name: ownCloud GmbH
+      url: https://owncloud.com
     name: owncloud
     sources:
-    - https://github.com/devs-in-the-cloud/owncloud-helm-chart
+    - https://github.com/owncloud-docker/helm-charts
     - https://github.com/owncloud-docker/server
     - https://github.com/owncloud/core
     type: application
     urls:
-    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/owncloud-0.8.1.tgz
+    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/owncloud-0.8.2.tgz
+    version: 0.8.2
+  - apiVersion: v2
+    appVersion: 10.14.0
+    created: "2024-08-20T19:41:56.125869+02:00"
+    description: ownCloud Server Helm chart
+    digest: 298918298ad9f194a175aabd64460d39be070cc1a55f9320fbe3cabe34624fbc
+    home: https://owncloud.com/
+    keywords:
+    - owncloud
+    - files
+    - collaboration
+    - sharing
+    kubeVersion: ~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0 || ~1.30.0-0
+    maintainers:
+    - email: devops@owncloud.com
+      name: ownCloud GmbH
+      url: https://owncloud.com
+    name: owncloud
+    sources:
+    - https://github.com/owncloud-docker/helm-charts
+    - https://github.com/owncloud-docker/server
+    - https://github.com/owncloud/core
+    type: application
+    urls:
+    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/docs/owncloud-0.8.1.tgz
     version: 0.8.1
-generated: "2024-08-20T18:58:06.912742+02:00"
+  - apiVersion: v2
+    appVersion: 10.14.0
+    created: "2024-08-20T19:41:56.121462+02:00"
+    description: ownCloud Server Helm chart
+    digest: e739650749a0acfade81f541072e8f55971bc7fd4ee3e87c1a46ddbf449d4b40
+    home: https://owncloud.com/
+    keywords:
+    - owncloud
+    - files
+    - collaboration
+    - sharing
+    kubeVersion: ~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0
+    maintainers:
+    - email: devops@owncloud.com
+      name: ownCloud GmbH
+      url: https://owncloud.com
+    name: owncloud
+    sources:
+    - https://github.com/owncloud-docker/helm-charts
+    - https://github.com/owncloud-docker/server
+    - https://github.com/owncloud/core
+    type: application
+    urls:
+    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/docs/owncloud-0.8.0.tgz
+    version: 0.0.0-devel
+generated: "2024-08-20T19:41:56.114803+02:00"
