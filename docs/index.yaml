@@ -24,6 +24,6 @@ entries:
     - https://github.com/owncloud/core
     type: application
     urls:
-    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/owncloud-0.8.0.tgz
-    version: 0.8.0
+    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/owncloud-0.8.1.tgz
+    version: 0.8.1
 generated: "2024-08-20T18:58:06.912742+02:00"
