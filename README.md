@@ -1,4 +1,6 @@
-# ownCloud: Helm Charts
+# ownCloud: Helm Charts (fork of the original repo https://github.com/owncloud-docker/helm-charts)
+
+As original repo seems abandonded, this fork is aiming to keep the maintenace of the owncloud's helm chart
 
 [![Build Status](https://drone.owncloud.com/api/badges/owncloud-docker/helm-charts/status.svg)](https://drone.owncloud.com/owncloud-docker/helm-charts)
 [![GitHub contributors](https://img.shields.io/github/contributors/owncloud-docker/helm-charts)](https://github.com/owncloud-docker/helm-charts/graphs/contributors)
