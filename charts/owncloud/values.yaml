@@ -22,7 +22,7 @@ livenessProbe:
     port: http
     httpHeaders:
       - name: Host
-        value: {{ .Values.owncloud.domain | quote }}
+        value: owncloud.chart.example
   initialDelaySeconds: 120
   timeoutSeconds: 5
   failureThreshold: 6
@@ -32,7 +32,7 @@ readinessProbe:
     port: http
     httpHeaders:
       - name: Host
-        value: {{ .Values.owncloud.domain | quote }}
+        value: owncloud.chart.example
   initialDelaySeconds: 30
   timeoutSeconds: 3
   periodSeconds: 5
