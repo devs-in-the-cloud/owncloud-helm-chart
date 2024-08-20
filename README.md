@@ -14,10 +14,10 @@ The code is provided as-is with no warranties.
 [Helm](https://helm.sh) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs/) to get started. Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add owncloud https://owncloud-docker.github.io/helm-charts
+helm repo add owncloud https://devs-in-the-cloud.github.io/owncloud-helm-chart/
 ```
 
-You can then run `helm search repo owncloud` to see the charts. The Chart documentation is available in the [owncloud directory](https://github.com/owncloud-docker/helm-charts/blob/main/charts/owncloud/README.md).
+You can then run `helm search repo owncloud` to see the charts. The Chart documentation is available in the [owncloud directory](https://github.com/devs-in-the-cloud/owncloud-helm-chart/blob/main/charts/owncloud/README.md).
 
 ## License
 
