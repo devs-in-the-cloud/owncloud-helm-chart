@@ -2,7 +2,7 @@
 
 ![Helm Version](https://img.shields.io/github/v/release/devs-in-the-cloud/owncloud-helm-chart?label=Version)
 ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat)
-![AppVersion: 10.15.0](https://img.shields.io/badge/AppVersion-10.14.0-informational?style=flat)
+![AppVersion: 10.15.0](https://img.shields.io/badge/AppVersion-10.15.0-informational?style=flat)
 
 ownCloud Server Helm chart
 
