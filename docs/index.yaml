@@ -3,7 +3,32 @@ entries:
   owncloud:
   - apiVersion: v2
     appVersion: 10.15.0
-    created: "2024-08-20T19:49:18.566938+02:00"
+    created: "2024-08-20T21:03:38.214411+02:00"
+    description: ownCloud Server Helm chart
+    digest: 896d4848aa320b30b61dd07de2e802eb35792b11623d5e8d32ff0f90880571b6
+    home: https://owncloud.com/
+    keywords:
+    - owncloud
+    - files
+    - collaboration
+    - sharing
+    kubeVersion: ~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0 || ~1.30.0-0
+    maintainers:
+    - email: contact@devsinthe.cloud
+      name: Devs in the Cloud eU
+      url: https://devsinthe.cloud
+    name: owncloud
+    sources:
+    - https://github.com/devs-in-the-cloud/owncloud-helm-chart
+    - https://github.com/owncloud-docker/server
+    - https://github.com/owncloud/core
+    type: application
+    urls:
+    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/owncloud-0.8.3.tgz
+    version: 0.8.3
+  - apiVersion: v2
+    appVersion: 10.15.0
+    created: "2024-08-20T21:03:38.224304+02:00"
     description: ownCloud Server Helm chart
     digest: 21b236c2ab469c52639c9327444c8bd2034b8df948b1edd2ac442a299086b1ef
     home: https://owncloud.com/
@@ -24,11 +49,11 @@ entries:
     - https://github.com/owncloud/core
     type: application
     urls:
-    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/owncloud-0.8.2.tgz
+    - https://devs-in-the-cloud.github.io/owncloud-helm-chart/docs/owncloud-0.8.2.tgz
     version: 0.8.2
   - apiVersion: v2
     appVersion: 10.14.0
-    created: "2024-08-20T19:49:18.572797+02:00"
+    created: "2024-08-20T21:03:38.221445+02:00"
     description: ownCloud Server Helm chart
     digest: 298918298ad9f194a175aabd64460d39be070cc1a55f9320fbe3cabe34624fbc
     home: https://owncloud.com/
@@ -53,7 +78,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 10.14.0
-    created: "2024-08-20T19:49:18.570756+02:00"
+    created: "2024-08-20T21:03:38.218044+02:00"
     description: ownCloud Server Helm chart
     digest: e739650749a0acfade81f541072e8f55971bc7fd4ee3e87c1a46ddbf449d4b40
     home: https://owncloud.com/
@@ -76,4 +101,4 @@ entries:
     urls:
     - https://devs-in-the-cloud.github.io/owncloud-helm-chart/docs/owncloud-0.8.0.tgz
     version: 0.0.0-devel
-generated: "2024-08-20T19:49:18.564707+02:00"
+generated: "2024-08-20T21:03:38.209455+02:00"
