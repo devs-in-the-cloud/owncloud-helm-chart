@@ -16,14 +16,14 @@ ownCloud Server Helm chart
 
 ## Requirements
 
-Kubernetes: `~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0 || ~1.29.0-0`
+Kubernetes: `~1.27.0-0 || ~1.28.0-0 || ~1.29.0-0 || ~1.30.0-0`
 
 ## Usage
 
 ### Get Repo Info
 
 ```Shell
-helm repo add owncloud https://owncloud-docker.github.io/helm-charts
+helm repo add owncloud https://devs-in-the-cloud.github.io/owncloud-helm-chart/
 helm repo update
 ```
 
